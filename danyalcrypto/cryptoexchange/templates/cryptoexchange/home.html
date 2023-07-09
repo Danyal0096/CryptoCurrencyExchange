@@ -1,0 +1,25 @@
+{% extends 'cryptoexchange/main.html' %}
+
+{% block content %}
+
+<br>
+
+<div class="row">
+    
+    {% include 'cryptoexchange/contactinfo.html' %}
+    
+    {% include 'cryptoexchange/credit.html' %}
+    
+</div>
+
+<br>
+
+<div class="row">
+
+    {% include 'cryptoexchange/stock.html' %}
+
+    {% include 'cryptoexchange/pendingorders.html' %}
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+<div class="col">
+    <h5 class="text-center">Stock</h5>
+    <hr>
+    <div class="card card-body">
+        <table class="table table-sm">
+            <tr>
+                <th class="text-center">Coin</th>
+                <th class="text-center">Amount</th>
+            </tr>
+            {% for i in mystocks %}
+                <tr>
+                    <td class="text-center">{{i.coin}}</td>
+                    <td class="text-center">{{i.amount}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
